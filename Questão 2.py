@@ -7,7 +7,7 @@ l, u, p, d = 0, 0, 0, 0
 if t>=6:
     print("1-Sua senha tem o número mínimo de caracters necessario (possui {} caracters)".format(t))
 else:
-    print("2-Você deve adicionar {} caracters para fortalecer sua senha".format(c))
+    print("1-Você deve adicionar {} caracters para fortalecer sua senha".format(c))
 if (len(senha) >= 6):
     for i in senha:
         if (i.islower()):
